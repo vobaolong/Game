@@ -1,0 +1,141 @@
+/*?---------- RESPONSIVE -----------*/
+@media screen and (max-width:1300px) {
+    header {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .top-box {
+        flex-direction: column;
+    }
+
+    .contact-box {
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-box p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    .about-content p {
+        font-size: 16px;
+        width: 400px;
+
+    }
+}
+
+@media screen and (max-width:820px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .menu {
+        padding: 30px 0px;
+    }
+
+    header .menu ul li {
+        padding: 0px 8px;
+    }
+
+    header .menu ul li a {
+        font-size: 16px;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-content p {
+        padding: 50px 0px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .card-section {
+        padding: 80px 20px;
+
+    }
+
+    .card-section h2 {
+        text-align: center;
+    }
+
+    .card-section p {
+        width: 300px;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .card-box {
+        flex-direction: column;
+    }
+
+    .card-item {
+        margin: 20px 0px;
+    }
+
+    .about-section .about-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section .about-content h2,
+    .about-section .about-content p {
+        text-align: center;
+    }
+
+    .about-section .image-box img {
+        height: 300px;
+    }
+
+    .social-section {
+        flex-direction: column;
+    }
+
+    .social-section .social-item {
+        padding: 25px 0px;
+    }
+
+    .footer-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .links-box li {
+        text-align: center;
+    }
+
+    .contact-box {
+        padding: 50px 0px;
+    }
+
+    .desc-box h2,
+    .desc-box p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .content-box h1 {
+        font-size: 30px;
+    }
+
+    .content-box p {
+        width: 350px;
+        padding-top: 20px;
+    }
+
+    .image-box img {
+        height: 250px;
+    }
+}
